@@ -51,3 +51,15 @@ if your_answer4 == "b" or your_answer4 == "B":
     total_score += 1
 else:
     print(f"{your_answer4} is incorrect. The correct answer is B.")
+
+print("\n(Gerald Sario) What is the square of 12?")
+print("a) 124 		             c) 144")
+print("b) 132   	             d) 155")
+
+your_answer5 = input("Enter your answer: ") 
+
+if your_answer5 == 'c' or your_answer5 == 'C':
+    print ("Your answer is correct!")
+    total_score += 1 
+else:
+    print(f"{your_answer5} is incorrect. The correct answer is C.")
