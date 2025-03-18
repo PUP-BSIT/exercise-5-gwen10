@@ -89,8 +89,10 @@ else:
     print(f"{your_answer7} is incorrect. The correct answer is C.")
 
 print("\n(Christian Bataller) Guess my favorite quote?")
-print("a) 'Dream big, work hard'             c) 'What is meant for you will always find its way.'")
-print("b) 'Happiness depends on ourselves.'  d) 'Everything happens for a reason.'")
+print("a) 'Dream big, work hard.'")           
+print("b) 'Happiness depends on ourselves.'")
+print("c) 'What is meant for you will always find its way.'")
+print("d) 'Everything happens for a reason.'")
 
 your_answer8 = input("Enter your answer: ")
 
@@ -99,3 +101,15 @@ if your_answer8 == "c" or your_answer8 == "C":
     total_score += 1
 else:
     print(f"{your_answer8} is incorrect. The correct answer is C.")
+
+print("\n(Kian Miguel) He was known the greatest scorer of all time in NBA?")
+print("a) Michael Jordan          c) Stephen Curry")
+print("b) Kobe bryant             d) Lebron James")
+
+your_answer9 = input("Enter your answer: ")
+
+if your_answer9 == "d" or your_answer9 == "D":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer9} is incorrect. The correct answer is D.")
