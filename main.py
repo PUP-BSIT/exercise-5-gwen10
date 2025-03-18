@@ -75,3 +75,15 @@ if your_answer6 == "b" or your_answer6 == "B":
     total_score += 1
 else:
     print(f"{your_answer6} is incorrect. The correct answer is B.")
+
+print("\n(Alexa Gonato) Which planet is known as the Red Planet?")
+print("a) Venus                  c) Mars")
+print("b) Jupiter                d) Saturn")
+
+your_answer7 = input("Enter your answer: ")
+
+if your_answer7 == "c" or your_answer7 == "C":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer7} is incorrect. The correct answer is C.")
