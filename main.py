@@ -15,3 +15,15 @@ if your_answer1 == "c" or your_answer1 == "C":
     total_score += 1
 else:
     print(f"{your_answer1} is incorrect. The correct answer is C.")
+
+print("\n(Alexa Gonato) Which of the following is the capital of Canada?")
+print("a) Toronto               c) Ottawa")
+print("b) Vancouver             d) Montreal")
+
+your_answer2 = input("Enter your answer: ")
+
+if your_answer2 == "c" or your_answer2 == "C":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer2} is incorrect. The correct answer is C.") 
