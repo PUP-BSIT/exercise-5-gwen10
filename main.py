@@ -63,3 +63,15 @@ if your_answer5 == 'c' or your_answer5 == 'C':
     total_score += 1 
 else:
     print(f"{your_answer5} is incorrect. The correct answer is C.")
+
+print("\n(Gwen Teves) Who was the first president of the Philippines?")
+print("a) Manuel L. Quezon       c) Jose P. Laurel")
+print("b) Emilio Aguinaldo       d) Ferdinand Marcos")
+
+your_answer6 = input("Enter your answer: ")
+
+if your_answer6 == "b" or your_answer6 == "B":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer6} is incorrect. The correct answer is B.")
