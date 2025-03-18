@@ -113,3 +113,19 @@ if your_answer9 == "d" or your_answer9 == "D":
     total_score += 1
 else:
     print(f"{your_answer9} is incorrect. The correct answer is D.")
+
+print("\n(Gerald Sario) What is the 5th term of the arithmetic sequence:")
+print("2,5,8,11,..?")
+print("a) 14 		              c) 15")
+print("b) 12                      d) 16")
+
+your_answer10 = input("Enter your answer: ")
+
+if your_answer10 == 'a' or your_answer10 == 'A':
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer10} is incorrect. The correct answer is A.")
+    
+print(f"\nCongratulations! You got {total_score} out of 10 items.")
+print("Thank you for answering!")
