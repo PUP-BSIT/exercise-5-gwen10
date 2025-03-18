@@ -27,3 +27,15 @@ if your_answer2 == "c" or your_answer2 == "C":
     total_score += 1
 else:
     print(f"{your_answer2} is incorrect. The correct answer is C.") 
+
+print("\n(Christian Bataller) Which activity do I enjoy when bored?")
+print("a) Cooking               c) Painting")
+print("b) Singing               d) Basketball") 
+
+your_answer3 = input("Enter your answer: ")
+
+if your_answer3 == "b" or your_answer3 == "B":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer3} is incorrect. The correct answer is B.")
