@@ -39,3 +39,15 @@ if your_answer3 == "b" or your_answer3 == "B":
     total_score += 1
 else:
     print(f"{your_answer3} is incorrect. The correct answer is B.")
+
+print("\n(Kian Miguel) Who is the young MVP in NBA?")
+print("a) Lebron James           c) Kevin Durant")
+print("b) Derick Rose            d) Kyrie Irving")
+
+your_answer4 = input("Enter your answer: ")
+
+if your_answer4 == "b" or your_answer4 == "B":
+    print("Your answer is correct!")
+    total_score += 1
+else:
+    print(f"{your_answer4} is incorrect. The correct answer is B.")
